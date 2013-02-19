@@ -2,6 +2,8 @@ AVPickerDimView *alpha*
 ===============
 `AVPickerDimView` is a simple class combination of `UIView`, `UIActionSheet`, and `UIPickerView`.
 
+![AVPickerDimView](http://www.studiovillegas.com/img/avpickerdimview-screen.png "AVPickerDimView demo screenshot")
+
 Installation
 -------------------------------
 There are 3 ways to download and import the files to your project:
