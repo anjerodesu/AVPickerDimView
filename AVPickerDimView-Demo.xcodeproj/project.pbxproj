@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		170CD59316C25E6F00057B35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1725C81E15C8DC3000C2296E /* Foundation.framework */; };
+		170CD59A16C25E6F00057B35 /* AVPickerDimView.m in Sources */ = {isa = PBXBuildFile; fileRef = 170CD59916C25E6F00057B35 /* AVPickerDimView.m */; };
+		1725C81D15C8DC3000C2296E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1725C81C15C8DC3000C2296E /* UIKit.framework */; };
+		1725C81F15C8DC3000C2296E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1725C81E15C8DC3000C2296E /* Foundation.framework */; };
+		1725C82115C8DC3000C2296E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1725C82015C8DC3000C2296E /* CoreGraphics.framework */; };
+		1725C82715C8DC3000C2296E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1725C82515C8DC3000C2296E /* InfoPlist.strings */; };
+		1725C82915C8DC3000C2296E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1725C82815C8DC3000C2296E /* main.m */; };
+		1725C82D15C8DC3000C2296E /* AVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1725C82C15C8DC3000C2296E /* AVAppDelegate.m */; };
+		1725C83015C8DC3000C2296E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1725C82E15C8DC3000C2296E /* MainStoryboard_iPhone.storyboard */; };
+		1725C83315C8DC3000C2296E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1725C83115C8DC3000C2296E /* MainStoryboard_iPad.storyboard */; };
+		1725C83615C8DC3000C2296E /* AVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1725C83515C8DC3000C2296E /* AVViewController.m */; };
+		1725C83E15C8DC3000C2296E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1725C83D15C8DC3000C2296E /* SenTestingKit.framework */; };
+		1725C83F15C8DC3000C2296E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1725C81C15C8DC3000C2296E /* UIKit.framework */; };
+		1725C84015C8DC3000C2296E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1725C81E15C8DC3000C2296E /* Foundation.framework */; };
+		1725C84815C8DC3000C2296E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1725C84615C8DC3000C2296E /* InfoPlist.strings */; };
+		1725C84B15C8DC3000C2296E /* AVPickerDimViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1725C84A15C8DC3000C2296E /* AVPickerDimViewTests.m */; };
+		17384A0716CD720F008E53E7 /* AVIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 1725C85615C8DDE900C2296E /* AVIndexPath.m */; };
+		17384A0816CD721C008E53E7 /* AVPickerGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = 1798A1D9163FB6EF00D25AD6 /* AVPickerGlobal.m */; };
+		1765859716D3870C00F1F456 /* AVPickerKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1725C85915C8DDE900C2296E /* AVPickerKit.h */; };
+		1765859816D3873100F1F456 /* AVPickerGlobal.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1798A1D8163FB6EF00D25AD6 /* AVPickerGlobal.h */; };
+		1765859916D3873100F1F456 /* AVIndexPath.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1725C85515C8DDE900C2296E /* AVIndexPath.h */; };
+		1765859A16D3873100F1F456 /* AVPickerDimView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1725C85715C8DDE900C2296E /* AVPickerDimView.h */; };
+		1765859D16D388E600F1F456 /* libAVPickerDimView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 170CD59216C25E6F00057B35 /* libAVPickerDimView.a */; };
+		176F976A16AD5BEC00E84589 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 176F976916AD5BEC00E84589 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1725C84115C8DC3000C2296E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1725C80F15C8DC2F00C2296E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1725C81715C8DC3000C2296E;
+			remoteInfo = SVPickerDimView;
+		};
+		1765859B16D388E200F1F456 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1725C80F15C8DC2F00C2296E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 170CD59116C25E6F00057B35;
+			remoteInfo = AVPickerDimView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		170CD59016C25E6F00057B35 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				1765859816D3873100F1F456 /* AVPickerGlobal.h in CopyFiles */,
+				1765859916D3873100F1F456 /* AVIndexPath.h in CopyFiles */,
+				1765859A16D3873100F1F456 /* AVPickerDimView.h in CopyFiles */,
+				1765859716D3870C00F1F456 /* AVPickerKit.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		170CD59216C25E6F00057B35 /* libAVPickerDimView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAVPickerDimView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		170CD59616C25E6F00057B35 /* AVPickerDimView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AVPickerDimView-Prefix.pch"; path = "../AVPickerDimView-Demo/AVPickerDimView-Prefix.pch"; sourceTree = "<group>"; };
+		170CD59716C25E6F00057B35 /* AVPickerDimView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVPickerDimView.h; sourceTree = "<group>"; };
+		170CD59916C25E6F00057B35 /* AVPickerDimView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPickerDimView.m; sourceTree = "<group>"; };
+		1725C81815C8DC3000C2296E /* AVPickerDimView-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AVPickerDimView-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1725C81C15C8DC3000C2296E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1725C81E15C8DC3000C2296E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1725C82015C8DC3000C2296E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1725C82415C8DC3000C2296E /* AVPickerDimView-Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AVPickerDimView-Demo-Info.plist"; sourceTree = "<group>"; };
+		1725C82615C8DC3000C2296E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1725C82815C8DC3000C2296E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1725C82A15C8DC3000C2296E /* AVPickerDimView-Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AVPickerDimView-Demo-Prefix.pch"; sourceTree = "<group>"; };
+		1725C82B15C8DC3000C2296E /* AVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVAppDelegate.h; sourceTree = "<group>"; };
+		1725C82C15C8DC3000C2296E /* AVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVAppDelegate.m; sourceTree = "<group>"; };
+		1725C82F15C8DC3000C2296E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		1725C83215C8DC3000C2296E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		1725C83415C8DC3000C2296E /* AVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVViewController.h; sourceTree = "<group>"; };
+		1725C83515C8DC3000C2296E /* AVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVViewController.m; sourceTree = "<group>"; };
+		1725C83C15C8DC3000C2296E /* AVPickerDimView-DemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AVPickerDimView-DemoTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1725C83D15C8DC3000C2296E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1725C84515C8DC3000C2296E /* AVPickerDimViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AVPickerDimViewTests-Info.plist"; sourceTree = "<group>"; };
+		1725C84715C8DC3000C2296E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1725C84915C8DC3000C2296E /* AVPickerDimViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVPickerDimViewTests.h; sourceTree = "<group>"; };
+		1725C84A15C8DC3000C2296E /* AVPickerDimViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPickerDimViewTests.m; sourceTree = "<group>"; };
+		1725C85515C8DDE900C2296E /* AVIndexPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVIndexPath.h; sourceTree = "<group>"; };
+		1725C85615C8DDE900C2296E /* AVIndexPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVIndexPath.m; sourceTree = "<group>"; };
+		1725C85715C8DDE900C2296E /* AVPickerDimView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVPickerDimView.h; sourceTree = "<group>"; };
+		1725C85815C8DDE900C2296E /* AVPickerDimView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVPickerDimView.m; sourceTree = "<group>"; };
+		1725C85915C8DDE900C2296E /* AVPickerKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVPickerKit.h; sourceTree = "<group>"; };
+		176F976916AD5BEC00E84589 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1798A1D8163FB6EF00D25AD6 /* AVPickerGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVPickerGlobal.h; sourceTree = "<group>"; };
+		1798A1D9163FB6EF00D25AD6 /* AVPickerGlobal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVPickerGlobal.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		170CD58F16C25E6F00057B35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170CD59316C25E6F00057B35 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1725C81515C8DC3000C2296E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1765859D16D388E600F1F456 /* libAVPickerDimView.a in Frameworks */,
+				1725C81D15C8DC3000C2296E /* UIKit.framework in Frameworks */,
+				1725C81F15C8DC3000C2296E /* Foundation.framework in Frameworks */,
+				1725C82115C8DC3000C2296E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1725C83815C8DC3000C2296E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1725C83E15C8DC3000C2296E /* SenTestingKit.framework in Frameworks */,
+				1725C83F15C8DC3000C2296E /* UIKit.framework in Frameworks */,
+				1725C84015C8DC3000C2296E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		170CD59416C25E6F00057B35 /* AVPickerDimView */ = {
+			isa = PBXGroup;
+			children = (
+				170CD59716C25E6F00057B35 /* AVPickerDimView.h */,
+				170CD59916C25E6F00057B35 /* AVPickerDimView.m */,
+				170CD59516C25E6F00057B35 /* Supporting Files */,
+			);
+			path = AVPickerDimView;
+			sourceTree = "<group>";
+		};
+		170CD59516C25E6F00057B35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				170CD59616C25E6F00057B35 /* AVPickerDimView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1725C80D15C8DC2F00C2296E = {
+			isa = PBXGroup;
+			children = (
+				176F976916AD5BEC00E84589 /* Default-568h@2x.png */,
+				1725C85415C8DDE900C2296E /* AVPickerDimView */,
+				1725C82215C8DC3000C2296E /* AVPickerDimView-Demo */,
+				1725C84315C8DC3000C2296E /* AVPickerDimViewTests */,
+				170CD59416C25E6F00057B35 /* AVPickerDimView */,
+				1725C81B15C8DC3000C2296E /* Frameworks */,
+				1725C81915C8DC3000C2296E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1725C81915C8DC3000C2296E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1725C81815C8DC3000C2296E /* AVPickerDimView-Demo.app */,
+				1725C83C15C8DC3000C2296E /* AVPickerDimView-DemoTests.octest */,
+				170CD59216C25E6F00057B35 /* libAVPickerDimView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1725C81B15C8DC3000C2296E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1725C81C15C8DC3000C2296E /* UIKit.framework */,
+				1725C81E15C8DC3000C2296E /* Foundation.framework */,
+				1725C82015C8DC3000C2296E /* CoreGraphics.framework */,
+				1725C83D15C8DC3000C2296E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1725C82215C8DC3000C2296E /* AVPickerDimView-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				1725C82B15C8DC3000C2296E /* AVAppDelegate.h */,
+				1725C82C15C8DC3000C2296E /* AVAppDelegate.m */,
+				1725C83415C8DC3000C2296E /* AVViewController.h */,
+				1725C83515C8DC3000C2296E /* AVViewController.m */,
+				1725C82E15C8DC3000C2296E /* MainStoryboard_iPhone.storyboard */,
+				1725C83115C8DC3000C2296E /* MainStoryboard_iPad.storyboard */,
+				1725C82315C8DC3000C2296E /* Supporting Files */,
+			);
+			path = "AVPickerDimView-Demo";
+			sourceTree = "<group>";
+		};
+		1725C82315C8DC3000C2296E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1725C82415C8DC3000C2296E /* AVPickerDimView-Demo-Info.plist */,
+				1725C82515C8DC3000C2296E /* InfoPlist.strings */,
+				1725C82815C8DC3000C2296E /* main.m */,
+				1725C82A15C8DC3000C2296E /* AVPickerDimView-Demo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1725C84315C8DC3000C2296E /* AVPickerDimViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				1725C84915C8DC3000C2296E /* AVPickerDimViewTests.h */,
+				1725C84A15C8DC3000C2296E /* AVPickerDimViewTests.m */,
+				1725C84415C8DC3000C2296E /* Supporting Files */,
+			);
+			path = AVPickerDimViewTests;
+			sourceTree = "<group>";
+		};
+		1725C84415C8DC3000C2296E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1725C84515C8DC3000C2296E /* AVPickerDimViewTests-Info.plist */,
+				1725C84615C8DC3000C2296E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1725C85415C8DDE900C2296E /* AVPickerDimView */ = {
+			isa = PBXGroup;
+			children = (
+				1725C85915C8DDE900C2296E /* AVPickerKit.h */,
+				1798A1D8163FB6EF00D25AD6 /* AVPickerGlobal.h */,
+				1798A1D9163FB6EF00D25AD6 /* AVPickerGlobal.m */,
+				1725C85515C8DDE900C2296E /* AVIndexPath.h */,
+				1725C85615C8DDE900C2296E /* AVIndexPath.m */,
+				1725C85715C8DDE900C2296E /* AVPickerDimView.h */,
+				1725C85815C8DDE900C2296E /* AVPickerDimView.m */,
+			);
+			path = AVPickerDimView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		170CD59116C25E6F00057B35 /* AVPickerDimView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 170CD59D16C25E6F00057B35 /* Build configuration list for PBXNativeTarget "AVPickerDimView" */;
+			buildPhases = (
+				170CD58E16C25E6F00057B35 /* Sources */,
+				170CD58F16C25E6F00057B35 /* Frameworks */,
+				170CD59016C25E6F00057B35 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVPickerDimView;
+			productName = AVPickerDimView;
+			productReference = 170CD59216C25E6F00057B35 /* libAVPickerDimView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1725C81715C8DC3000C2296E /* AVPickerDimView-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1725C84E15C8DC3000C2296E /* Build configuration list for PBXNativeTarget "AVPickerDimView-Demo" */;
+			buildPhases = (
+				1725C81415C8DC3000C2296E /* Sources */,
+				1725C81515C8DC3000C2296E /* Frameworks */,
+				1725C81615C8DC3000C2296E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1765859C16D388E200F1F456 /* PBXTargetDependency */,
+			);
+			name = "AVPickerDimView-Demo";
+			productName = SVPickerDimView;
+			productReference = 1725C81815C8DC3000C2296E /* AVPickerDimView-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1725C83B15C8DC3000C2296E /* AVPickerDimView-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1725C85115C8DC3000C2296E /* Build configuration list for PBXNativeTarget "AVPickerDimView-DemoTests" */;
+			buildPhases = (
+				1725C83715C8DC3000C2296E /* Sources */,
+				1725C83815C8DC3000C2296E /* Frameworks */,
+				1725C83915C8DC3000C2296E /* Resources */,
+				1725C83A15C8DC3000C2296E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1725C84215C8DC3000C2296E /* PBXTargetDependency */,
+			);
+			name = "AVPickerDimView-DemoTests";
+			productName = SVPickerDimViewTests;
+			productReference = 1725C83C15C8DC3000C2296E /* AVPickerDimView-DemoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1725C80F15C8DC2F00C2296E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SV;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Studio Villegas";
+			};
+			buildConfigurationList = 1725C81215C8DC2F00C2296E /* Build configuration list for PBXProject "AVPickerDimView-Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1725C80D15C8DC2F00C2296E;
+			productRefGroup = 1725C81915C8DC3000C2296E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1725C81715C8DC3000C2296E /* AVPickerDimView-Demo */,
+				170CD59116C25E6F00057B35 /* AVPickerDimView */,
+				1725C83B15C8DC3000C2296E /* AVPickerDimView-DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1725C81615C8DC3000C2296E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1725C82715C8DC3000C2296E /* InfoPlist.strings in Resources */,
+				1725C83015C8DC3000C2296E /* MainStoryboard_iPhone.storyboard in Resources */,
+				1725C83315C8DC3000C2296E /* MainStoryboard_iPad.storyboard in Resources */,
+				176F976A16AD5BEC00E84589 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1725C83915C8DC3000C2296E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1725C84815C8DC3000C2296E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1725C83A15C8DC3000C2296E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		170CD58E16C25E6F00057B35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170CD59A16C25E6F00057B35 /* AVPickerDimView.m in Sources */,
+				17384A0716CD720F008E53E7 /* AVIndexPath.m in Sources */,
+				17384A0816CD721C008E53E7 /* AVPickerGlobal.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1725C81415C8DC3000C2296E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1725C82915C8DC3000C2296E /* main.m in Sources */,
+				1725C82D15C8DC3000C2296E /* AVAppDelegate.m in Sources */,
+				1725C83615C8DC3000C2296E /* AVViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1725C83715C8DC3000C2296E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1725C84B15C8DC3000C2296E /* AVPickerDimViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1725C84215C8DC3000C2296E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1725C81715C8DC3000C2296E /* AVPickerDimView-Demo */;
+			targetProxy = 1725C84115C8DC3000C2296E /* PBXContainerItemProxy */;
+		};
+		1765859C16D388E200F1F456 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 170CD59116C25E6F00057B35 /* AVPickerDimView */;
+			targetProxy = 1765859B16D388E200F1F456 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1725C82515C8DC3000C2296E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1725C82615C8DC3000C2296E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1725C82E15C8DC3000C2296E /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1725C82F15C8DC3000C2296E /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		1725C83115C8DC3000C2296E /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1725C83215C8DC3000C2296E /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		1725C84615C8DC3000C2296E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1725C84715C8DC3000C2296E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		170CD59B16C25E6F00057B35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				DSTROOT = /tmp/AVPickerDimView.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AVPickerDimView-Demo/AVPickerDimView-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = /include/AVPickerDimView;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		170CD59C16C25E6F00057B35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				DSTROOT = /tmp/AVPickerDimView.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AVPickerDimView-Demo/AVPickerDimView-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = /include/AVPickerDimView;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1725C84C15C8DC3000C2296E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1725C84D15C8DC3000C2296E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1725C84F15C8DC3000C2296E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Carl Angelo Villegas (FCKNRGK89G)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AVPickerDimView-Demo/AVPickerDimView-Demo-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/AVPickerDimView-Demo/AVPickerDimView-Demo-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "AVPickerDimView-Demo";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5B5D18E8-B791-4C7B-9804-EA17CD9B3701";
+				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}/AVPickerDimView/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1725C85015C8DC3000C2296E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Carl Angelo Villegas (FCKNRGK89G)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AVPickerDimView-Demo/AVPickerDimView-Demo-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/AVPickerDimView-Demo/AVPickerDimView-Demo-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "AVPickerDimView-Demo";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5B5D18E8-B791-4C7B-9804-EA17CD9B3701";
+				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}/AVPickerDimView/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1725C85215C8DC3000C2296E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SVPickerDimView.app/SVPickerDimView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SVPickerDimView/SVPickerDimView-Prefix.pch";
+				INFOPLIST_FILE = "SVPickerDimViewTests/AVPickerDimViewTests-Info.plist";
+				PRODUCT_NAME = "AVPickerDimView-DemoTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1725C85315C8DC3000C2296E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SVPickerDimView.app/SVPickerDimView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SVPickerDimView/SVPickerDimView-Prefix.pch";
+				INFOPLIST_FILE = "SVPickerDimViewTests/AVPickerDimViewTests-Info.plist";
+				PRODUCT_NAME = "AVPickerDimView-DemoTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		170CD59D16C25E6F00057B35 /* Build configuration list for PBXNativeTarget "AVPickerDimView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				170CD59B16C25E6F00057B35 /* Debug */,
+				170CD59C16C25E6F00057B35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1725C81215C8DC2F00C2296E /* Build configuration list for PBXProject "AVPickerDimView-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1725C84C15C8DC3000C2296E /* Debug */,
+				1725C84D15C8DC3000C2296E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1725C84E15C8DC3000C2296E /* Build configuration list for PBXNativeTarget "AVPickerDimView-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1725C84F15C8DC3000C2296E /* Debug */,
+				1725C85015C8DC3000C2296E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1725C85115C8DC3000C2296E /* Build configuration list for PBXNativeTarget "AVPickerDimView-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1725C85215C8DC3000C2296E /* Debug */,
+				1725C85315C8DC3000C2296E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1725C80F15C8DC2F00C2296E /* Project object */;
+}
