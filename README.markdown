@@ -11,9 +11,9 @@ There are 3 ways to download and import the files to your project:
 ### Download: ###
 
 1. Using git **subtree** (recommended)
-    - `git subtree add --prefix=AVPickerDimView --squash git@github.com:anjerodesu/AVPickerDimView.git master`
+    - `git subtree add --prefix=AVPickerDimView --squash https://github.com/anjerodesu/AVPickerDimView.git master`
 2. Using git **submodule**
-    - `git submodule add git@github.com:anjerodesu/AVPickerDimView.git AVPickerDimView`
+    - `git submodule add https://github.com/anjerodesu/AVPickerDimView.git AVPickerDimView`
 3. Download as **zip**
     - Download the file: [AVPickerDimView Project Page on GitHub](https://github.com/anjerodesu/AVPickerDimView "AVPickerDimView")
     - Unzip the folder and put it inside your project with the **.xcodeproj** file
