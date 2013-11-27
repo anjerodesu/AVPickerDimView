@@ -31,7 +31,7 @@
 	
 	_pickerTitles = @[ @"Sample 1" , @"Sample 2" , @"Sample 3" , @"Sample 4" , @"Sample 5" ];
 	
-	_pickerDimView = [[AVPickerDimView alloc] initWithFrame: self.view.frame];
+	_pickerDimView = [[AVPickerDimView alloc] initWithFrame: self.view.bounds];
 	_pickerDimView.dataSource = self;
 	_pickerDimView.delegate = self;
 	
