@@ -1,5 +1,7 @@
 AVPickerDimView *alpha*
 ===============
+[![Build Status](https://travis-ci.org/anjerodesu/AVPickerDimView.png?branch=master)](https://travis-ci.org/anjerodesu/AVPickerDimView)
+
 `AVPickerDimView` is a simple class combination of `UIView`, `UIActionSheet`, and `UIPickerView`.
 
 ![AVPickerDimView](http://www.studiovillegas.com/img/avpickerdimview-screen.png "AVPickerDimView demo screenshot")
